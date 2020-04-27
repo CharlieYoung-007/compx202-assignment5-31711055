@@ -1,6 +1,17 @@
 1. What is a Fragment?
 Fragment can be regarded as an active interface layout, which depends on activities,
 but its activities and life cycle can improve the interface by replacing parts of activities.
+Fragment features：
+    1.Fragment has its own life cycle;
+    2.Individuals can receive input events, and they can add or remove fragments when activity is
+      running;
+    3.Fragment must be attached to the activity. For example: when activity is suspended, fragment
+      need to be suspended and destruction is also destroyed;
+    4.When the activity runs, individuals can operate each fragment independently, or they can
+      communicate between fragment and activity;
+How to use:
+    Firstly, people can create a fragment class. Secondly, add fragment to activity layout. Thirdly,
+    call this fragment in activity.
 2. How would using Fragments help in this situation?
 For this assignment, I think we can create two fragments,
 image fragment and text fragment. In this way, we can encapsulate our code
