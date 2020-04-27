@@ -1,0 +1,7 @@
+1. What is a Fragment?
+Fragment can be regarded as an active interface layout, which depends on activities,
+but its activities and life cycle can improve the interface by replacing parts of activities.
+2. How would using Fragments help in this situation?
+For this assignment, I think we can create two fragments,
+image fragment and text fragment. In this way, we can encapsulate our code
+so as to reduce the time for us to rethink the design of landscape interface.
